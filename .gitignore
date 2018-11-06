@@ -1,0 +1,29 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS / Eclipse ###
+.metadata
+.classpath
+.project
+.settings
+.apt_generated
+.factorypath
+.springBeans
+.tern-project
+.eclipse-pmd
+.checkstyle
+
+### IntelliJ IDEA ###
+.designer
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Vaadin ###
+baddy-web/src/main/webapp/VAADIN/themes/**/styles.css
+baddy-web/src/main/webapp/VAADIN/themes/**/styles.scss.cache
+baddy-web/.vaadin-designer2/designer-theme.css
+
+### Entwicklungshilfen ###
+application-developer.yml
